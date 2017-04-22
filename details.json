@@ -1,0 +1,39 @@
+{
+    "uid": "slack-pencilblue",
+    "name": "Slack Pencilblue",
+    "description": "Slack integration for Pencilblue",
+    "version": "0.1.0",
+    "pb_version": ">=0.7.x <1.x",
+    "author": {
+        "name": "Christopher Satchell",
+        "email": "satchell028@gmail.com",
+        "website": "https://github.com/dukeofsussex"
+    },
+    "permissions": {},
+    "settings": [
+        {
+            "displayName": "SLACK_PENCILBLUE_ENABLED",
+            "group": "SLACK_PENCILBLUE_GENERAL_SETTINGS",
+            "name": "slack_pencilblue_enabled",
+            "value": false
+        },
+        {
+            "displayName": "SLACK_PENCILBLUE_WEBHOOK_URL",
+            "group": "SLACK_PENCILBLUE_SLACK_SETTINGS",
+            "name": "slack_pencilblue_webhook_url",
+            "value": "https://hooks.slack.com/services/"
+        },
+        {
+            "displayName": "SLACK_PENCILBLUE_CHANNEL_OVERRIDE",
+            "group": "SLACK_PENCILBLUE_SLACK_SETTINGS",
+            "name": "slack_pencilblue_channel",
+            "value": "Not used yet"
+        }
+    ],
+    "main_module": {
+        "path": "slack-pencilblue.js"
+    },
+    "dependencies": {
+        "request": "^2.x"
+    }
+}

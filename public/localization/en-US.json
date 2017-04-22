@@ -1,0 +1,7 @@
+{
+    "SLACK_PENCILBLUE_CHANNEL_OVERRIDE": "Channel override",
+    "SLACK_PENCILBLUE_ENABLED": "Enabled",
+    "SLACK_PENCILBLUE_GENERAL_SETTINGS": "General settings",
+    "SLACK_PENCILBLUE_SLACK_SETTINGS": "Slack settings",
+    "SLACK_PENCILBLUE_WEBHOOK_URL": "Webhook URL"
+}
